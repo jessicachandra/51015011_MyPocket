@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TableLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+            <TableRow>
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:text="nama"
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="keterangan"
+                    android:id="@+id/keterangan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nama"
+                    android:ellipsize="marquee"
+                    android:lines="2"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:textSize="12sp"/>
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="1"
+            android:text="200.000"
+            android:id="@+id/nilai"
+            android:layout_width="0dp"
+            android:gravity="right|center"
+            android:layout_below="@id/nama"
+            android:lines="3"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </TableRow>
+
+
+
+</TableLayout>

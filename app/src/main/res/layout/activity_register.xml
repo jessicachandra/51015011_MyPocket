@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,17 +6,18 @@
     android:orientation="vertical"
     android:background="@color/colorPrimary"
     android:gravity="center_vertical"
-    tools:context="com.example.jessicachandra.mypocketlist.LoginActivity">
+    tools:context="com.example.jessicachandra.mypocketlist.RegisterActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MY POCKET"
+        android:text="My Pocket "
         android:textSize="50sp"
         android:textColor="#fff"
         android:gravity="center"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"/>
+
 
     <EditText
         android:id="@+id/etKodeAkses"
@@ -27,20 +27,34 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/shape_edittext"
-        android:hint="kode akses"
+        android:hint="kode akses baru"
         android:inputType="numberPassword"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
-        android:textColorHint="@color/colorPrimary"/>
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/etKodeAksesRetype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/shape_edittext"
+        android:hint="tulis ulang kode akses"
+        android:inputType="numberPassword"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorPrimary" />
+
     <Button
-        android:onClick="prosesMasuk"
+        android:onClick="prosesDaftar"
         android:background="@drawable/shape_button"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Masuk"
+        android:text="Daftar"
         tools:ignore="OnClick" />
-
 </LinearLayout>

@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".CatatanActivity" />
+        <activity android:name=".Input_Cash_Activity" />
+        <activity android:name=".ProfilActivity"></activity>
     </application>
 
 </manifest>
