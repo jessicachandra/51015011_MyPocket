@@ -10,17 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".CatatanActivity" />
         <activity android:name=".Input_Cash_Activity" />
-        <activity android:name=".ProfilActivity"></activity>
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".PengeluaranActivity" />
+        <activity android:name=".PemasukanActivity"></activity>
     </application>
 
 </manifest>
