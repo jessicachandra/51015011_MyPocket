@@ -116,6 +116,7 @@
                 android:orientation="vertical">
 
                 <Button
+                    android:id="@+id/btnMasuk"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
@@ -123,9 +124,10 @@
                     android:layout_marginLeft="20sp"
                     android:background="@drawable/shape_button"
                     android:text="catatan pemasukan"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"/>
 
                 <Button
+                    android:id="@+id/btnKeluar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
@@ -133,19 +135,8 @@
                     android:layout_marginLeft="20sp"
                     android:background="@drawable/shape_button"
                     android:text="catatan pengeluaran"
-                    android:textColor="#fff" />
+                    android:textColor="#fff"/>
 
-                <Button
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dp"
-                    android:layout_marginLeft="20sp"
-                    android:layout_marginRight="20sp"
-                    android:background="@drawable/shape_button"
-                    android:onClick="lihatCatatan"
-                    android:text="catatan keseluruhan"
-                    android:textColor="#fff"
-                    tools:ignore="OnClick" />
 
             </LinearLayout>
         </LinearLayout>
